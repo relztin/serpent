@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <title>TP3 GAME4</title>
+</head>
+
+<body>
+    <!-- <h1>TP3 : Terrain, Bastien Schnitzler</h1> -->
+    <div id="divScore">
+        <h1>Score : &nbsp;</h1>
+    </div>
+
+    <div id="gagne">
+        <h1>Gagné !</h1>
+    </div>
+
+    <div id="perdu">
+        <h1>Perdu...</h1>
+        <p>Vous avez heurté quelquechose</p>
+    </div>
+
+    <div id="divCanvas">
+        <canvas id="terrain" width=400px; height=400px; style="border: 1px solid black;"></canvas>
+    </div>
+
+    </div>
+
+    <h3>Règles :</h3>
+    <ul>
+        <li>Ramasser toutes les cases jaunes</li>
+        <li>Une case récoltée = serpent augmente de 1 case</li>
+        <li>Ne pas heurter d'obstacles de bordures, ou l'ennemi</li>
+        <li><b>Pour recommencer la partie :</b> bouton en bas de la page</li>
+
+    </ul>
+
+    <div class="touches">
+        <!--<input type="button" id="allonger" value="+ 1"></input>
+        <input type="button" id="buttonSetInterval" value="Animation setInrterval"></input>
+        <input type="button" id="buttonRAF" value="Animation RAF"></input> -->
+        <input type="button" id="buttonFullscreen" value="Fullscreen"></input>
+        <input type="button" value="Recommencer la partie" onclick="document.location.reload();">
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

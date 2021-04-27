@@ -1,0 +1,22 @@
+#divScore {
+    display: flex;
+}
+
+#gagne{
+    text-align: center;
+    padding-top: 150px;
+    height: 250px;
+    width: 400px;
+    background-color: green;
+    display: none;
+}
+
+#perdu{
+    text-align: center;
+    padding-top: 150px;
+    height: 250px;
+    width: 400px;
+    color : white;
+    background-color: blue;
+    display: none;
+}
